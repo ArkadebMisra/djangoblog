@@ -1,0 +1,186 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-05-08T05:29:04.303Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "1",
+    "object_repr": "Neural network",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-05-10T18:44:32.872Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "post 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-05-10T19:15:19.917Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "post 3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-05-11T13:07:39.913Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "2",
+    "object_repr": "post 2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-05-11T13:07:39.924Z",
+    "user": 1,
+    "content_type": null,
+    "object_id": "3",
+    "object_repr": "post 3",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$cXVupuZATXdE9VPajIxvmW$8yBawaqZ5tu8PuAZxtjAfO7mGcuRMWUpg6xZs9le7Nc=",
+    "last_login": "2024-05-09T14:46:06.793Z",
+    "is_superuser": true,
+    "username": "arka",
+    "first_name": "",
+    "last_name": "",
+    "email": "misra.arkadeb@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-05-08T05:21:45.872Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$m8HXTRvYxLCXaKVEvEcrOS$ZohPr/1kmd4mSKnULmmizT/0TmXNfTDM1mAuOfI7xPQ=",
+    "last_login": "2024-05-11T13:22:02.327Z",
+    "is_superuser": true,
+    "username": "Arka",
+    "first_name": "",
+    "last_name": "",
+    "email": "misra.arkadeb@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-05-11T13:21:33.076Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cof9jw7srprcgbxg0abxlzsyje2zvpf2",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGA1KEu3fcbyMwwSNVA0sfK-O-2SRe6Pefc-1YR16XEdZYpjkldlVWnX0bIT6m7SA-s96a51WUaSe-JPuysh5bkdTvav4OCc9nWQQSZLQH3ZFhMJyZ4zi4x0AUzwMagc9mZs_UCXSL0AEjBBseJevX5Ahe7OOo:1s4wvG:o5600X_N8p6lwSo3pqUrtxMWL9gxNCIFDCatUxze1KE",
+    "expire_date": "2024-05-23T06:06:30.372Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w6n1fz1i0eep5fsrkupwnr854wq72c4f",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGA1KEu3fcbyMwwSNVA0sfK-O-2SRe6Pefc-1YR16XEdZYpjkldlVWnX0bIT6m7SA-s96a51WUaSe-JPuysh5bkdTvav4OCc9nWQQSZLQH3ZFhMJyZ4zi4x0AUzwMagc9mZs_UCXSL0AEjBBseJevX5Ahe7OOo:1s5526:F3BtJeX659_DGEILm-e5bGv675rULipxnGRQHqOkCcg",
+    "expire_date": "2024-05-23T14:46:06.797Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wdaa57rxlee6c1vbgbdgraa4r3r4hdao",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyGIUMCj934D2WUXqRqalPZk_Hdp0oOeZjJvZt4iwraWuDVe4kTiKrQ4_WYI6cl1B_SAep9lmuu6TCj3ijxok-NM_Lod3b-DAq30NZDVbtDAGDg45R2fTYAcjMqUoIMuqfs8IGVPyIjeKp-tSWSAL-LzBRSmOb0:1s5mfq:-ZF5_VKY2htREyuRetFSMvOj-MFtgahJlTvqqoXLpkk",
+    "expire_date": "2024-05-25T13:22:02.333Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xf71eu6lh3a2mfjjf0c0qs2hky80agkh",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSGA1KEu3fcbyMwwSNVA0sfK-O-2SRe6Pefc-1YR16XEdZYpjkldlVWnX0bIT6m7SA-s96a51WUaSe-JPuysh5bkdTvav4OCc9nWQQSZLQH3ZFhMJyZ4zi4x0AUzwMagc9mZs_UCXSL0AEjBBseJevX5Ahe7OOo:1s4Zl8:za6KQvyU9IjlT1zyVTqyra9taXD5Zlh1XEOYBFbtREY",
+    "expire_date": "2024-05-22T05:22:30.652Z"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "cs",
+    "slug": "cs"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "datascience",
+    "slug": "datascience"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "ML",
+    "slug": "ml"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Neural network",
+    "slug": "Neural-network",
+    "author": 1,
+    "body": "In the context of machine learning, a neural network is an artificial mathematical model used to approximate nonlinear functions. While early artificial neural networks were physical machines,[3] today they are almost always implemented in software.\r\n\r\nNeurons in an artificial neural network are usually arranged into layers, with information passing from the first layer (the input layer) through one or more intermediate layers (hidden layers) to the final layer (the output layer).[4] The \"signal\" input to each neuron is a number, specifically a linear combination of the outputs of the connected neurons in the previous layer. The signal each neuron outputs is calculated from this number, according to its activation function. The behavior of the network depends on the strengths (or weights) of the connections between neurons. A network is trained by modifying these weights through empirical risk minimization or backpropagation in order to fit some preexisting dataset.[5]\r\n\r\nNeural networks are used to solve problems in artificial intelligence, and have thereby found applications in many disciplines, including predictive modeling, adaptive control, facial recognition, handwriting recognition, general game playing, and generative AI.",
+    "publish": "2024-05-08T05:27:39Z",
+    "created": "2024-05-08T05:29:04.300Z",
+    "updated": "2024-05-08T05:29:04.300Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Arkadeb Misra",
+    "email": "arkadebmisra@gmail.com",
+    "body": "I didn't know that",
+    "created": "2024-05-09T06:37:01.657Z",
+    "updated": "2024-05-09T06:37:01.657Z",
+    "active": true
+  }
+}
+]
