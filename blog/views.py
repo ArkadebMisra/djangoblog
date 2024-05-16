@@ -40,7 +40,7 @@ def post_search(request):
                 rank=SearchRank(search_vector, search_query)
             ).filter(rank__gte=0.3).order_by('-rank')
     return render(request,
-                  'blog/post/search.html',
+                  'blog/post/my_search.html',
                   {'form': form,
                    'query': query,
                    'results': results})
@@ -91,7 +91,7 @@ def post_detail(request, year, month, day, post):
 
     return render(
         request,
-        'blog/post/detail.html',
+        'blog/post/my_detail.html',
         {'post': post,
          'comments': comments,
          'form': form,
@@ -132,7 +132,7 @@ def post_share(request, post_id):
         form = EmailPostForm()
     return render(
         request,
-        'blog/post/share.html',
+        'blog/post/my_share.html',
         {
             'post': post,
             'form': form,
@@ -156,7 +156,7 @@ def post_comment(request, post_id):
         comment.save()
     return render(
         request,
-        'blog/post/comment.html',
+        'blog/post/my_comment.html',
         {
             'post': post,
             'comment': comment,

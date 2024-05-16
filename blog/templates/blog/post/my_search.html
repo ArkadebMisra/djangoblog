@@ -1,21 +1,20 @@
 {% extends "blog/my_base.html" %}
 {% load blog_tags %}
-{% load static %}
 
-{% block title %}My Blog{% endblock %}
-
+{% block title %}Search{% endblock %}
 
 {% block content %}
-{% if tag %}
-  <h2 style="color:#1B7F79">Posts tagged with "{{ tag.name }}"</h2>
-{% endif %}
-{% for post in posts %}
+<h2 style="color:#1B7F79">Posts containing "{{ query }}"</h2>
+<h3 style="color:#00CCC0">
+  {% with results.count as total_results %}
+    Found {{ total_results }} result{{ total_results|pluralize }}
+  {% endwith %}
+</h3>
+{% for post in results %}
 <div class="row">
 <div class="col-lg-12">
   <div class="blog-post">
-<!--    <div class="blog-thumb">-->
-<!--      <img src="{% static "assets/images/banner-item-02.jpg" %}" alt="">-->
-<!--    </div>-->
+
     <div class="down-content">
 <!--      <span>Lifestyle</span>-->
       <a href="{{ post.get_absolute_url }}"><h4>{{ post.title }}</h4></a>
@@ -24,7 +23,7 @@
         <li><a href="#">{{ post.publish }}</a></li>
         <li><a href="#">12 Comments</a></li>
       </ul>
-      {{ post.body|markdown|truncatewords_html:30 }}
+      {{ post.body|markdown|truncatewords_html:15 }}
       <div class="post-options">
         <div class="row">
           <div class="col-6">
@@ -55,6 +54,18 @@
   </div>
 </div>
 </div>
+
+
+
+
+<!--  <h4>-->
+<!--    <a href="{{ post.get_absolute_url }}">-->
+<!--      {{ post.title }}-->
+<!--    </a>-->
+<!--  </h4>-->
+<!--  {{ post.body|markdown|truncatewords_html:12 }}-->
+{% empty %}
+  <p>There are no results for your query.</p>
 {% endfor %}
-{% include "pagination.html" with page=posts %}
+
 {% endblock %}
