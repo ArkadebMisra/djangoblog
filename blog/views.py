@@ -24,6 +24,8 @@ class PostListView(ListView):
     template_name = 'blog/post/list.html'
 
 
+
+#only works with postgre database uncomment the database connection setting.py
 def post_search(request):
     form = SearchForm()
     query = None
